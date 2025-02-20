@@ -1,7 +1,7 @@
 // server/routes/apiRouter.ts
 
 const express = require('express');
-const restaurantController = require('../controllers/restaurantController');
+const restaurantController = require('../controllers/restaurantController.js');
 const mdbController = require('../controllers/mdbController.js');
 const axios = require('axios'); // ensure axios is imported - very important for the geocode below to work
 
