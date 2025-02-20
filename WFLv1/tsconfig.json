@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "target": "ES6",
+    "module": "commonjs",
+    "jsx": "react",
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true
+  },
+  "include": ["**/*.ts", "**/*.tsx", "__tests__/fetch.test.js"],
+  "exclude": ["node_modules"]
+}
